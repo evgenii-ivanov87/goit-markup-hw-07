@@ -1,0 +1,35 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--titel-light-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
+.header-link:hover svg {
+  fill: var(--accent-color);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-link {
+  color: var(--titel-dark-color);
+}
+.header-link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header-adress {
+  display: flex;
+}
