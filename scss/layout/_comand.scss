@@ -23,7 +23,7 @@
   font-size: 36px;
   line-height: 1.17px;
   text-align: center;
-  color: var(--titel-light-color);
+  color: $titel-light-color;
   margin-bottom: 30px;
 }
 
@@ -32,7 +32,7 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  color: var(--titel-light-color);
+  color: $titel-light-color;
   margin-bottom: 10px;
 }
 .comand-titel-name-item {
@@ -40,13 +40,13 @@
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  color: var(--titel-dark-color);
+  color: $titel-dark-color;
   margin-bottom: 16px;
 }
 
 .comand-link-list:hover,
 .comand-link-list:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .comand-link-list:hover .comand-link-img {

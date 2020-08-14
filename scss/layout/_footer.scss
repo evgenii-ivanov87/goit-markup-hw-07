@@ -31,7 +31,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--backgraoud-color);
+  color: $backgraoud-color;
 }
 .footer-link-item {
   font-weight: 400;
@@ -46,7 +46,7 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--backgraoud-color);
+  color: $backgraoud-color;
   margin-bottom: 20px;
 }
 .footer-b .footer-social-list {
@@ -68,7 +68,7 @@
 
 .footer-label-link:hover,
 .footer-label-link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .footer-btn {
@@ -134,4 +134,4 @@
 /* .footer-form-input:focus + .footer-label,
 .footer-form-input:not(:placeholder-shown) + .footer-label {
   transform: translateY(-39px);
-  color: var(--backgraoud-color); */
+  color: $backgraoud-color; */

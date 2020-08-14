@@ -18,7 +18,7 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: var(--titel-light-color);
+  color: $titel-light-color;
   margin-bottom: 50px;
 }
 
@@ -33,7 +33,7 @@
   position: absolute;
   left: 0px;
   bottom: 0px;
-  color: var(--backgraoud-color);
+  color: $backgraoud-color;
   padding-top: 27px;
   padding-bottom: 27px;
   background-color: rgba(47, 48, 58, 0.8);

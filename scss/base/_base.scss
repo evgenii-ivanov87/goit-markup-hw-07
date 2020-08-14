@@ -9,11 +9,11 @@ html {
 }
 
 body {
-  background-color: var(--backgraoud-color);
-  font-family: var(--main-font);
+  background-color: $backgraoud-color;
+  font-family: $main-font;
   font-size: 14;
   letter-spacing: 0.03em;
-  color: var(--titel-dark-color);
+  color: $titel-dark-color;
 }
 
 h2,

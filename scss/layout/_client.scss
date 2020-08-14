@@ -28,11 +28,11 @@
 }
 
 .client-item-link-list:hover {
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 
 .client-item-link-list:hover .client-link-img {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .client-titel {
@@ -40,13 +40,13 @@
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: var(--titel-light-color);
+  color: $titel-light-color;
   margin-bottom: 50px;
 }
 
 .client-link-img:hover,
 .client-link-img:focus {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .client-link-img {

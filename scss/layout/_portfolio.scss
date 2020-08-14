@@ -39,8 +39,8 @@
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  background-color: var(--backgraoud-color-secondary);
-  color: var(--titel-light-color);
+  background-color: $backgraoud-color-secondary;
+  color: $titel-light-color;
   padding-top: 6px;
   padding-right: 22px;
   padding-bottom: 6px;
@@ -61,9 +61,9 @@
 
 .main-btn:hover,
 .main-btn:focus {
-  background-color: var(--accent-color);
-  color: var(--backgraoud-color);
-  border-color: var(--accent-color);
+  background-color: $accent-color;
+  color: $backgraoud-color;
+  border-color: $accent-color;
 }
 
 .main-jobs-item {
@@ -90,7 +90,7 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--titel-light-color);
+  color: $titel-light-color;
   padding-left: 24px;
   margin-bottom: 4px;
 }
@@ -100,7 +100,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  color: var(--titel-dark-color);
+  color: $titel-dark-color;
   padding-left: 24px;
 }
 .jobs-titel-text {
@@ -109,7 +109,7 @@
   font-size: 18px;
   line-height: 1.56;
   padding: 63px 24px;
-  color: var(--backgraoud-color);
+  color: $backgraoud-color;
   background-color: rgba(33, 150, 243, 0.9);
   width: 100%;
   height: 100%;

@@ -131,20 +131,20 @@
 .model-form-input:not(:placeholder-shown) + .model-form-label {
   transform: translateY(-39px);
   left: 19px;
-  color: var(--accent-color);
+  color: $accent-color;
   font-size: 12px;
   line-height: 1.16;
 }
 
 .model-form-input:focus ~ .model-form-img,
 .model-form-input:not(:placeholder-shown) ~ .model-form-img {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .model-form-message:focus + .model-form-message-comment,
 .model-form-message:not(:placeholder-shown) + .model-form-message-comment {
   transform: translateY(-30px);
-  color: var(--accent-color);
+  color: $accent-color;
   font-size: 12px;
   line-height: 1.16;
 }
@@ -154,11 +154,11 @@
 .model-form-input:not(:placeholder-shown),
 .model-form-message:not(:placeholder-shown) {
   outline: none;
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 
 .model-form-message:focus::placeholder {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .model-form-img {
@@ -182,8 +182,8 @@
   margin-right: 8.38px;
 }
 .model-form-checkbox:checked + .model-form-chek {
-  background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  background-color: $accent-color;
+  border-color: $accent-color;
 }
 
 .modal-btn {
@@ -209,7 +209,7 @@
 
 .modal-btn:hover .model-form-img-close,
 .modal-btn:focus .model-form-img-close {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .is-hidden {
