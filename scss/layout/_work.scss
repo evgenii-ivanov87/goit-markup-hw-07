@@ -4,11 +4,13 @@
 
 .work-list {
   position: relative;
-}
 
-.work-list:not(:last-child) {
+  &:not(:last-child) {
   margin-right: 30px;
 }
+}
+
+
 .work-titel-list {
   display: flex;
 }

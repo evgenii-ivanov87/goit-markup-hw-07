@@ -1,13 +1,14 @@
 .comand {
   background-color: #f5f4fa;
-}
-.comand .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
-.comand .comand-titel-list {
-  display: flex;
+  .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .comand-titel-list {
+    display: flex;
+  }
 }
 
 .comand-titel-item {
@@ -44,14 +45,8 @@
   margin-bottom: 16px;
 }
 
-.comand-link-list:hover,
-.comand-link-list:focus {
-  background-color: $accent-color;
-}
 
-.comand-link-list:hover .comand-link-img {
-  fill: #fff;
-}
+
 
 .comand-link {
   display: flex;
@@ -71,7 +66,17 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+  background-color: $accent-color;
 }
+
+  &:hover .comand-link-img {
+  fill: #fff;
+}
+}
+
 
 .comand-link-img {
   fill: #757575;

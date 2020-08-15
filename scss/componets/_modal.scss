@@ -47,6 +47,20 @@
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+  &:focus + .model-form-label,
+  &:not(:placeholder-shown) + .model-form-label {
+    transform: translateY(-39px);
+    left: 19px;
+    color: $accent-color;
+    font-size: 12px;
+    line-height: 1.16;
+  }
+
+  &:focus ~ .model-form-img,
+  &:not(:placeholder-shown) ~ .model-form-img {
+    fill: $accent-color;
+  }
 }
 
 .model-form-input-wrapper {
@@ -75,6 +89,18 @@
   color: #757575;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+
+      &:focus + .model-form-message-comment,
+      &:not(:placeholder-shown) + .model-form-message-comment {
+      transform: translateY(-30px);
+      color: $accent-color;
+      font-size: 12px;
+      line-height: 1.16;
+      }
+      &:focus::placeholder {
+      color: $accent-color;
+}
+
 }
 
 .model-form-input-message {
@@ -127,27 +153,6 @@
   text-align: center;
 }
 
-.model-form-input:focus + .model-form-label,
-.model-form-input:not(:placeholder-shown) + .model-form-label {
-  transform: translateY(-39px);
-  left: 19px;
-  color: $accent-color;
-  font-size: 12px;
-  line-height: 1.16;
-}
-
-.model-form-input:focus ~ .model-form-img,
-.model-form-input:not(:placeholder-shown) ~ .model-form-img {
-  fill: $accent-color;
-}
-
-.model-form-message:focus + .model-form-message-comment,
-.model-form-message:not(:placeholder-shown) + .model-form-message-comment {
-  transform: translateY(-30px);
-  color: $accent-color;
-  font-size: 12px;
-  line-height: 1.16;
-}
 
 .model-form-input:focus,
 .model-form-message:focus,
@@ -157,9 +162,6 @@
   border-color: $accent-color;
 }
 
-.model-form-message:focus::placeholder {
-  color: $accent-color;
-}
 
 .model-form-img {
   display: block;
@@ -200,6 +202,11 @@
   border-radius: 50%;
   fill: #000000;
   outline: none;
+
+  &:hover .model-form-img-close,
+  &:focus .model-form-img-close {
+  fill: $accent-color;
+}
 }
 .model-form-img-close {
   width: 11px;
@@ -207,10 +214,7 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn:hover .model-form-img-close,
-.modal-btn:focus .model-form-img-close {
-  fill: $accent-color;
-}
+
 
 .is-hidden {
   opacity: 0;

@@ -22,18 +22,24 @@
   box-sizing: border-box;
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover .client-link-img {
+  fill: $accent-color;
+}
+
+  &:hover {
+  border: 1px solid $accent-color;
+}
+
+
 }
 .client-item-link:not(:last-child) {
   margin-right: 30px;
 }
 
-.client-item-link-list:hover {
-  border: 1px solid $accent-color;
-}
 
-.client-item-link-list:hover .client-link-img {
-  fill: $accent-color;
-}
+
+
 
 .client-titel {
   font-weight: 700;
@@ -44,10 +50,7 @@
   margin-bottom: 50px;
 }
 
-.client-link-img:hover,
-.client-link-img:focus {
-  fill: $accent-color;
-}
+
 
 .client-link-img {
   width: 50px;
@@ -55,4 +58,9 @@
   display: flex;
   fill: #757575;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+  fill: $accent-color;
+}
 }

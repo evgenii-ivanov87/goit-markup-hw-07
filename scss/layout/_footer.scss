@@ -74,6 +74,10 @@
 .footer-btn {
   display: block;
   width: 570px;
+
+   .model-form-input-wrapper {
+  display: flex;
+}
 }
 
 .footer-img {
@@ -128,9 +132,7 @@
   transform: translateY(-50%);
 }
 
-.footer-btn .model-form-input-wrapper {
-  display: flex;
-}
+
 /* .footer-form-input:focus + .footer-label,
 .footer-form-input:not(:placeholder-shown) + .footer-label {
   transform: translateY(-39px);

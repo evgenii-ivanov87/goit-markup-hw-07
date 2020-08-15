@@ -11,10 +11,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-.description-list:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .description-list-icon {
